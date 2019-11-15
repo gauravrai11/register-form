@@ -1,0 +1,247 @@
+.navbar{
+    background-image: linear-gradient(270deg,#ff1e50,#232882);
+    
+}
+.navbar-brand{font-family: cursive;
+    color: gold;
+    font-size: 25px
+}
+.navbar-nav li{
+    margin: 0 90px;
+    font-family: cursive;
+    font-weight: bolder
+}
+.nav-item i{
+    color: white;
+    
+}
+
+.bodyimg{
+    position: relative;
+    opacity: 1;
+
+    
+}
+.img1{
+    position: absolute;
+    
+}
+.img1 img{
+     max-width: 100%;
+     margin: 0 auto;
+     opacity: 1;
+     
+}
+.content{
+position: absolute;
+top: 30%;
+margin: 0 auto;
+left: 10%;
+right: 10%;
+width: 80%;
+font-size: 2vw;
+background-image: linear-gradient(90deg,orange,white,green);
+border-radius: 20px 20px 20px 20px;
+padding: 20px 10px;
+font-family: 'Oleo Script', cursive;
+color: brown;
+opacity: 0.8;
+
+}
+.content:hover{
+    background-image: linear-gradient(180deg,orange,white,green);
+    color: black
+}
+@media only screen and (max-width: 600px) {
+    .content {
+      top: 20%;
+      font-size: 15px;
+      vertical-align: middle;
+      
+    }
+    .img1 img{
+        height: 595px;
+        
+    }
+    .loginimgin img{
+        opacity: 0.5;
+        
+    }
+    .mainlogintext{
+        
+        margin: 0 auto;
+        
+    }
+  }
+.loginsec{
+    position: absolute;
+    top: 94%;
+
+}
+.loginimgin{
+    max-width: 100%;
+    margin: 0 auto
+}
+.loginimgin img{
+    max-width: 100%;
+    opacity: 0.7;
+}
+.c{
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.mainlogintext{
+    font-size: 5vw;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-family: 'Cookie', cursive;
+    color: black
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color: blanchedalmond;
+    outline: none;
+    
+}
+hr{
+    background-color: aqua;
+    outline: navajowhite
+}
+.btn-large{
+    background-image: linear-gradient(to right,VIOLET,yellow,orange,pink);
+    color: black;
+    height: 90px;
+    width: 60%;
+    font-size: 20px;
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.25);
+    border-radius: 100px 100px 100px 100px;
+
+}
+.btn-large:hover{
+    background-image: linear-gradient(to right,orange,white,green);
+    box-shadow: 20px 20px 50px 10px pink
+
+}
+.formarea{
+    
+    
+
+}
+.container{
+    background-image: linear-gradient(105deg,orange,white,green);
+    width: 100%;
+    border-radius: 80px 80px 80px 80px
+}
+input[type=radio]{
+    margin: 0 10px
+    
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:transparent;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color:transparent;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+  .container h1{
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+      font-size: 60px
+  }
+  .container p{
+    font-family: 'Redressed', cursive;
+    font-size: 30px;
+    color: darkblue
+}
+label{
+    font-size: 25px;
+    color: black;
+    font-family: cursive
+    
+}
+.signupbtn{
+    background-image: linear-gradient(270deg,#ff1e50,#232882);
+    color: white;
+    width: 70%;
+    height: 50px;
+    border-radius: 60px 60px 40px 40px;
+    margin: 20px 0
+}
+.secbutton{
+    background: linear-gradient(to right,#ff6666,orange,violet,#fc1785,yellow);
+box-shadow: 0 10px 20px -5px rgba(0,0,0,.25);
+font-size: 25px
+
+}
+.secbutton:hover{
+    background: linear-gradient(to right,grey,whitesmoke,hotpink,green);
+    box-shadow: 20px 20px 50px 10px pink
+
+}
+.thirdbutton{
+    background: linear-gradient(to right,#ff6666,orange,aqua,rgb(219, 68, 68),skyblue);
+    font-size: 25px
+}
+.thirdbutton:hover{
+    background: linear-gradient(to right,lightgrey,pink,cyan);
+    box-shadow: 20px 20px 50px 10px pink
+}
+
+.fourbutton{
+    background-image: linear-gradient(260deg,#ff1e50 20%,whitesmoke,hotpink,gold);
+    font-size: 25PX
+}
+.fourbutton:hover{
+    background-image: linear-gradient(to right,#ff1e50 20%,whitesmoke,lightgreen);
+    box-shadow: 20px 20px 50px 10px pink
+
+
+}
+button{
+    font-family: 'Courgette', cursive;
+    font-weight: bolder
+}
+input[type=date]{
+
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    
+}
+input[type=date]:focus{
+    background-color: blanchedalmond
+
+}
+.error{
+    color:red
+}
